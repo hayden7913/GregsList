@@ -1,0 +1,116 @@
+body {
+	margin: 0px;
+	font-family: "Roboto", sans-serifbody;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+nav	{
+	height: 20px;
+	padding: 10px;
+	background-color: #DDDDDD;
+	width: 100%;
+}
+
+main {
+	margin-left: 40px;
+	margin-top: 60px;
+}	
+
+input {
+	padding: 7px;
+	width: 350px;
+	
+}
+
+ul {
+	margin-top: 40px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.roundBorder {
+	border: 1px solid #DDDDDD;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	 border-radius: 3px;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.navTitle {
+	position: relative;
+	color: black;
+
+}
+
+.navRight{
+	position: absolute;
+    right: 60px;
+    top: 10px;
+}
+
+.searchContainer {
+	margin-top: 10px;	
+}
+
+.searchButton {
+	
+}
+
+.searchIcon {
+	height: 30px;
+	width: 30px;
+	vertical-align: middle;
+}
+
+.prevNext {
+	margin-top: 40px;
+	font-size: 0px;
+}
+
+.prev, .resNum, .next {
+	border: 1px solid #DDDDDD;
+	padding: 5px 10px;
+	font-size: 12px;
+	height: 15px;
+}
+
+.resNum {
+	border-left: 0px;
+	border-right: 0px;
+
+}
+
+.prev::before {
+	content: "<";
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+
+.next::after {
+	content: ">";
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.entry {
+	list-style: none;
+	margin-top: 15px;
+	color: #999;
+}
